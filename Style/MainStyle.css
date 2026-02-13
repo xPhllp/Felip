@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SN Pro", serif;
+    background: linear-gradient(to bottom,#0d1f5d 0%,#303f61 35%,#516ea7 65%,#abb7d3 100%);
+    padding: 30px;
+    color: #102f67;
+    flex-direction: column;
+    
+    
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #5b5d9a, #9a9dc9);
+}
+
+
+.content{
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+.Box {
+    position: relative;
+    background: rgb(200, 204, 247); 
+    border-radius: 20px;
+    box-shadow: 0 15px 55px rgba(1, 6, 41, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 80px;
+}
+
+nav, .Left, a {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav, .Right {
+    color: black;
+    margin: 0 10px;
+}
+
+.Center_Name {
+    text-align: center;
+}
+
+.Content {
+    position: relative;
+    background: rgba(221, 219, 232, 0.8); /* Semi-transparent para mabasa ang text */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    color: #102f67;
+}
+
+img {
+    top: 100px;
+    right: 100px;
+}
+
+.Img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 5px solid #0d1f5d;
+    object-fit: cover;
+}
+
+.Table {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    background: #0d1f5d;
+    color: white;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+td {
+ 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.About-Me, .My_Major_Subject, .My_Hobbies {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0d1f5d;
+}
+
+button {
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #181c5c;
+    color: white
+
+}
+
+button:hover {
+    font-size: 0.9em;
+    background-color: #191f76;
+    color: white;
+}
+
+button:active {
+    font-size: 0.9em;
+    background-color: #516ea7;
+}
+
+footer {
+    background: linear-gradient(to right, #1c1c52, #5b51c4);
+    color: #e9f5db;
+    text-align: center;
+    padding: 10px;
+    max-width: 930px;
+    margin: auto;
+    border-top: 5px solid #322971;
+      
+}
+
+.Icon_Footer {
+    color: #e9f5db;
+}
